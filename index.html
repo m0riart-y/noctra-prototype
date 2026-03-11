@@ -1,0 +1,76 @@
+index.html
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+<meta charset="UTF-8">
+<title>Noctra Prototype</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="scene">
+
+<!-- CABIN WALLS -->
+<div class="cabin"></div>
+
+<!-- WINDOW -->
+<div class="window">
+
+<div class="night-sky"></div>
+<div class="stars"></div>
+<div class="window-rain"></div>
+<div class="forest forest-back"></div>
+<div class="forest forest-mid"></div>
+<div class="forest forest-front"></div>
+
+<canvas id="rainCanvas"></canvas>
+
+<div class="lightning"></div>
+
+</div>
+
+<!-- TABLE -->
+<div class="table"></div>
+
+<div class="notebook"></div>
+
+<div class="mug">
+<div class="steam"></div>
+<div class="steam"></div>
+<div class="steam"></div>
+</div>
+
+<!-- CANDLE -->
+<div class="candle-group">
+<div class="wax"></div>
+<div class="wax"></div>
+<div class="wax"></div>
+<div class="candle-glow"></div>
+
+<div class="candle">
+<div class="flame"></div>
+</div>
+
+</div>
+
+<!-- UI -->
+
+<div class="ui">
+<div id="timer">00:30</div>
+<button id="startBtn">Start Session</button>
+</div>
+
+</div>
+
+<audio id="rainSound" loop>
+<source src="https://cdn.pixabay.com/download/audio/2022/03/15/audio_9e3c6a2c6e.mp3">
+</audio>
+<audio id="thunderSound">
+<source src="https://cdn.pixabay.com/download/audio/2022/03/15/audio_2aab0c16b8.mp3">
+</audio>
+<script src="script.js"></script>
+
+</body>
+</html>
